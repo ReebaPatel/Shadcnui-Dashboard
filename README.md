@@ -26,7 +26,7 @@ This dashboard showcases analytics, charts, recent invoices, and interactive com
 
 ## Screenshot
 
-![Dashboard Screenshot](./screenshots/dashboard.png)
+![Dashboard Screenshot](./image.png)
 
 ---
 
