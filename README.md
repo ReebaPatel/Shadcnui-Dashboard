@@ -1,50 +1,64 @@
-# React + TypeScript + Vite
+# ShadCN UI Dashboard 🖥️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.1-green)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3-purple)](https://tailwindcss.com/)
+[![ShadCN UI](https://img.shields.io/badge/ShadCN_UI-1.0-orange)](https://ui.shadcn.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Currently, two official plugins are available:
+A **modern and responsive admin/dashboard interface** built with ShadCN UI, React, TypeScript, and Vite.  
+This dashboard showcases analytics, charts, recent invoices, and interactive components in a clean and professional layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- ✅ Clean, modern dashboard layout  
+- ✅ Responsive design (desktop & mobile)  
+- ✅ Sidebar navigation and cards  
+- ✅ Analytics charts and statistics (mock data)  
+- ✅ Recent invoices table  
+- ✅ Dark and light mode toggle  
+- ✅ Fully customizable with ShadCN UI components  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Screenshot
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+![Dashboard Screenshot](./screenshots/dashboard.png)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Tech Stack
+
+- **React 18 + TypeScript**  
+- **Vite** for fast development and HMR  
+- **Tailwind CSS** for styling  
+- **ShadCN UI** components library  
+- Optional: Any charting libraries for analytics  
+
+---
+
+## Getting Started
+
+To run the dashboard locally:
+
+1. **Clone the repository**
+   
+git clone <your-repo-link>
+cd shadcn-dashboard
+
+3. **Install dependencies**
+
+npm install
+or
+yarn install
+
+3. **Start the development server**
+
+npm run dev
+or
+yarn dev
+
+4. **Open your browser** at http://localhost:5173 (or the port shown in the terminal)
